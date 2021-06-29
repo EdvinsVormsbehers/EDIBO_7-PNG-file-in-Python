@@ -9,14 +9,17 @@ def main():
     cir = Circle(Point(250, 250), 100)
     cir.setFill(color_rgb(255, 255, 255))
     cir.setWidth(5)
+    cir.setOutline("red")
 
     cir2 = Circle(Point(250, 250), 110)
     cir2.setFill(color_rgb(255, 255, 255))
     cir2.setWidth(5)
+    cir2.setOutline("red")
 
     cir3 = Circle(Point(250, 250), 120)
     cir3.setFill(color_rgb(255, 255, 255))
     cir3.setWidth(5)
+    cir3.setOutline("red")
 
     lin1 = Line(Point(160, 200), Point(220, 350))
     lin1.setWidth(10)
